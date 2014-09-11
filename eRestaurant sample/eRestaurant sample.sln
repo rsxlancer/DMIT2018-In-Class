@@ -25,13 +25,22 @@ Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "Website(6)", "http://localh
 		DefaultWebSiteLanguage = "Visual C#"
 	EndProjectSection
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "eRestaurant", "eRestaurant\eRestaurant.csproj", "{B123AE50-74C4-4870-8E19-A37CBA587DCF}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
 		{A6FC5A98-F279-4D74-A1B6-DF6D91498386}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{A6FC5A98-F279-4D74-A1B6-DF6D91498386}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A6FC5A98-F279-4D74-A1B6-DF6D91498386}.Release|Any CPU.ActiveCfg = Debug|Any CPU
+		{A6FC5A98-F279-4D74-A1B6-DF6D91498386}.Release|Any CPU.Build.0 = Debug|Any CPU
+		{B123AE50-74C4-4870-8E19-A37CBA587DCF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B123AE50-74C4-4870-8E19-A37CBA587DCF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B123AE50-74C4-4870-8E19-A37CBA587DCF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B123AE50-74C4-4870-8E19-A37CBA587DCF}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
