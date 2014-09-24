@@ -15,6 +15,6 @@ namespace eRestaurant.Entities
         public bool Active { get; set; }
         public int Calories { get; set; }
         public string Comment { get; set; }
-        public virtual MenuCatagories MenuCatagoryID { get; set; }
+        public virtual MenuCategory MenuCatagoryID { get; set; }
     }
 }
