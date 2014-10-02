@@ -55,7 +55,7 @@
     <Compile Include="Entities\DTOs\Category.cs" />
     <Compile Include="Entities\DTOs\MenuItem.cs" />
     <Compile Include="Entities\Item.cs" />
-    <Compile Include="Entities\MenuCatagories.cs" />
+    <Compile Include="Entities\MenuCategories.cs" />
     <Compile Include="Entities\Reservation.cs" />
     <Compile Include="Entities\SpecialEvent.cs" />
     <Compile Include="Entities\Table.cs" />
