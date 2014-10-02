@@ -46,10 +46,14 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="BLL\DataObjecct.cs" />
+    <Compile Include="BLL\MenuController.cs" />
     <Compile Include="BLL\RestaurantAdminController.cs" />
     <Compile Include="DAL\RestaurantContext.cs" />
     <Compile Include="Entities\Bill.cs" />
     <Compile Include="Entities\BillItem.cs" />
+    <Compile Include="Entities\DTOs\Category.cs" />
+    <Compile Include="Entities\DTOs\MenuItem.cs" />
     <Compile Include="Entities\Item.cs" />
     <Compile Include="Entities\MenuCatagories.cs" />
     <Compile Include="Entities\Reservation.cs" />

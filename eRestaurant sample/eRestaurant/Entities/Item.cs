@@ -10,11 +10,13 @@ namespace eRestaurant.Entities
     {
         public int ItemID { get; set; }
         public string Description { get; set; }
-        public decimal CurrrentPrice { get; set; }
+        public decimal CurrentPrice { get; set; }
         public decimal CurrentCost { get; set; }
         public bool Active { get; set; }
         public int Calories { get; set; }
         public string Comment { get; set; }
-        public virtual MenuCategory MenuCatagoryID { get; set; }
+        public int MenuCategoryID { get; set; }
+
+        public virtual MenuCategory MenuCategory { get; set; }
     }
 }
