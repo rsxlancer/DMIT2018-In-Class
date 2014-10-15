@@ -11,4 +11,8 @@ public partial class Admin_SpecialEvents : System.Web.UI.Page
     {
 
     }
+    protected void HandleCRUDErrors(object sender, ObjectDataSourceStatusEventArgs e)
+    {
+        MessageUserControl.HandleDataBoundException(e);
+    }
 }
