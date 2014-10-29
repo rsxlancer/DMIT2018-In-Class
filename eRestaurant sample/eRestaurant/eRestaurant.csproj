@@ -60,6 +60,7 @@
     <Compile Include="Entities\DTOs\OrderItem.cs" />
     <Compile Include="Entities\Item.cs" />
     <Compile Include="Entities\MenuCategories.cs" />
+    <Compile Include="Entities\POCO%27s\CategorizedItemSale.cs" />
     <Compile Include="Entities\POCO%27s\CategoryMenuItem.cs" />
     <Compile Include="Entities\Reservation.cs" />
     <Compile Include="Entities\SpecialEvent.cs" />
