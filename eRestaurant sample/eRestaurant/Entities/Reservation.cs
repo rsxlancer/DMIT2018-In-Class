@@ -8,6 +8,15 @@ namespace eRestaurant.Entities
 {
     public class Reservation
     {
+        //constants for valid reservation status values
+        //B = Booked; Arrived = "A"; C = Complete; N = No-show; X = Cancelled
+        public const string Booked = "B";
+        public const string Arrived = "A";
+        public const string Complete = "C";
+        public const string NoShow = "N";
+        public const string Cancelled = "X";
+
+
         public int reservationID { get; set; }
         public string CustomerName { get; set; }
         public DateTime ReservationDate { get; set; }
@@ -19,6 +28,8 @@ namespace eRestaurant.Entities
         #region Navigation Properties
         public virtual SpecialEvent Event { get; set; }
         public virtual ICollection<Table> Tables { get; set; }
+        public virtual ICollection<Bill> Bills { get; set; }
+
         #endregion
     }
 }

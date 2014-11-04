@@ -46,11 +46,13 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="BLL\AdHocController.cs" />
     <Compile Include="BLL\DataObject.cs" />
     <Compile Include="BLL\MenuController.cs" />
     <Compile Include="BLL\ReportsController.cs" />
     <Compile Include="BLL\ReservationController.cs" />
     <Compile Include="BLL\RestaurantAdminController.cs" />
+    <Compile Include="BLL\SeatingController.cs" />
     <Compile Include="DAL\RestaurantContext.cs" />
     <Compile Include="Entities\Bill.cs" />
     <Compile Include="Entities\BillItem.cs" />
@@ -58,6 +60,9 @@
     <Compile Include="Entities\DTOs\MenuItem.cs" />
     <Compile Include="Entities\DTOs\Order.cs" />
     <Compile Include="Entities\DTOs\OrderItem.cs" />
+    <Compile Include="Entities\DTOs\ReservationCollection.cs" />
+    <Compile Include="Entities\DTOs\ReservationSummary.cs" />
+    <Compile Include="Entities\DTOs\SeatingSummary.cs" />
     <Compile Include="Entities\Item.cs" />
     <Compile Include="Entities\MenuCategories.cs" />
     <Compile Include="Entities\POCO%27s\CategorizedItemSale.cs" />
