@@ -17,7 +17,7 @@ namespace eRestaurant.Entities
         public const string Cancelled = "X";
 
 
-        public int reservationID { get; set; }
+        public int ReservationID { get; set; }
         public string CustomerName { get; set; }
         public DateTime ReservationDate { get; set; }
         public int NumberInParty { get; set; }

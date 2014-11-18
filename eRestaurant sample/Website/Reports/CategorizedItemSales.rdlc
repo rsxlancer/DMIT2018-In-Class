@@ -757,7 +757,6 @@
                         <rd:FormatSymbolCulture>en-US</rd:FormatSymbolCulture>
                       </Style>
                     </Textbox>
-                    <rd:Selected>true</rd:Selected>
                   </CellContents>
                 </TablixCell>
               </TablixCells>
@@ -817,7 +816,7 @@
         </TablixRowHierarchy>
         <DataSetName>CategorizedItemSaleDataSet</DataSetName>
         <Height>1in</Height>
-        <Width>6.89583in</Width>
+        <Width>6.89584in</Width>
         <Style>
           <Border>
             <Style>None</Style>
@@ -828,7 +827,7 @@
     <Height>1in</Height>
     <Style />
   </Body>
-  <Width>6.89583in</Width>
+  <Width>6.89584in</Width>
   <Page>
     <PageHeader>
       <Height>1in</Height>

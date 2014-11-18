@@ -21,5 +21,7 @@ namespace eRestaurant.Entities.DTOs
         public IEnumerable<byte> Tables { get; set; }
 
         public string Event { get; set; }
+
+        public int ID { get; set; }
     }
 }
